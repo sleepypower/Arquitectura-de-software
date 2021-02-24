@@ -29,7 +29,7 @@ def formatear_base_de_datos(function):
             return function(lista)
         
         else:
-            return function()
+            return function(lista)
     return wrapper
             
 def formatear_sistema(function):

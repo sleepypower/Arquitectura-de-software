@@ -36,5 +36,5 @@ object_factory = Factory("Bills").get_instance()
 print(object_factory().get_factura())
 """
 
-formatear(["base de datos", "sistema"])
+formatear(["base de datos"])
 
